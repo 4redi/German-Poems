@@ -1,4 +1,4 @@
-# Detusche Gedichte
+# Deutsche Gedichte
 ![Poems](Untitled.png)
 
 # Introduction
