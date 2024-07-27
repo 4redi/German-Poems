@@ -23,3 +23,55 @@ body {
     background-color:rgb(176, 176, 212);
     color: rgb(27, 27, 27);
 }
+
+hr {
+	margin: 40px auto;
+	border: 1px solid rgba(60, 3, 3, 0.767);
+	width: 300px;
+}
+
+li{
+	padding-top: 10px;
+	list-style: none;
+}
+ul{
+	padding: 0;
+}
+
+.poet{
+	text-align: center;
+	background-color: rgba(134, 4, 4, 0.941);
+	border-radius: 3px;
+	padding: 15px 10px;
+	margin: 5px 0;
+	color:white;
+}
+
+.poem{
+	display: flex;
+	place-items: center;
+	text-align: center;
+	flex-direction: column;
+	font-size: 1.2rem;
+	color: $poem_color;
+}
+
+.poem-eng{
+	text-align: left;
+	font-size: 1rem;
+}
+
+.quote{
+	position: relative;
+	top:-8px;
+}
+
+h2{
+	color:rgb(14, 14, 14);
+}
+
+li>a{
+	text-decoration: none;
+	color:rgb(225, 226, 218);
+	font-size: 1.3rem;
+}
