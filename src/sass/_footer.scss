@@ -1,21 +1,15 @@
 // footer
 @import "colors";
-.footer{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    left:50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    width: 50%;
-    background-color: rgb(171, 210, 239);
-    padding: 15px 0;
+    footer {
+        width: 100%;
+        margin-top: 60px;
+        text-align: center;
+        padding: 5px 0;
+        background-color: $blue;
+        color: $black;
+        text-wrap: nowrap;
+    }
 
- 
-}
 .footer p,
 .footer i,
 .footer a{
@@ -23,9 +17,9 @@
 }
 
 
-a{
+footer> a{
     text-decoration: none;
-    color:black;
+    color:rgb(238, 238, 238);
 
   
 }
@@ -33,3 +27,13 @@ a{
 a:hover{
     font-weight:bold;
 }
+
+.logo {
+    margin-right: 5px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 18%, rgba(255,0,0,1) 54%, rgba(255,248,0,1) 81%);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+}
+
