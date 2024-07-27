@@ -1,0 +1,13 @@
+{
+  "name": "german-poems",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/sass/_main.scss dist/styles/main.css",
+    "sass:watch": "sass --watch src/sass/_main.scss:dist/styles/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

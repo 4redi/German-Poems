@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Esteban&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  width: 50%;
+  background-color: rgb(171, 210, 239);
+  padding: 15px 0;
+}
+
+.footer p,
+.footer i,
+.footer a {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  background-color: rgb(171, 210, 239);
+  margin: 0;
+  color: rgb(48, 47, 52);
+  font-family: "Esteban", sans-serif;
+  text-align: center;
+  font-size: 2.6rem;
+  padding: 15px 0;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  background-color: rgb(187, 193, 194);
+  margin: 0 auto;
+  width: 40%;
+  font-family: "Esteban", sans-serif;
+  font-size: 15px;
+}
+
+::selection {
+  background-color: rgb(176, 176, 212);
+  color: rgb(27, 27, 27);
+}
+
+/*# sourceMappingURL=main.css.map */

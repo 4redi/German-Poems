@@ -1,0 +1,11 @@
+//header
+@import "colors";
+h1 {
+	background-color: $blue;
+	margin: 0;
+	color: $black;
+	font-family: "Esteban", sans-serif;
+	text-align: center;
+	font-size: 2.6rem;
+	padding: 15px 0;
+}

@@ -1,0 +1,35 @@
+// footer
+@import "colors";
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    width: 50%;
+    background-color: rgb(171, 210, 239);
+    padding: 15px 0;
+
+ 
+}
+.footer p,
+.footer i,
+.footer a{
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+
+  
+}
+
+a:hover{
+    font-weight:bold;
+}
