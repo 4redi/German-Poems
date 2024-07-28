@@ -5,5 +5,5 @@
 This is a simple website (text-based mostly) build for European Language day. 
 
 # Things to do
-- [ ] Change Color palette
-- [ ] Make Website Responsive on all platforms
+- [X] Change Color palette
+- [X] Make Website Responsive on all platforms
